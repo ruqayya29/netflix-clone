@@ -112,7 +112,3 @@ node index.js
 
 ---
 
-## 📄 License
-
-This project is for educational purposes only.  
-Netflix is a trademark of Netflix, Inc.
