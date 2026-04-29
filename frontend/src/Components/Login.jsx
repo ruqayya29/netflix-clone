@@ -5,6 +5,8 @@ import { useNavigate } from "react-router-dom"
 import axios from "axios"
 import { FaEye, FaEyeSlash } from "react-icons/fa"
 
+const url = "https://netflix-clone-lk7c-p03hvg2hq-ruqayya29s-projects.vercel.app"
+
 
 function Login() {
 
@@ -31,7 +33,7 @@ function Login() {
 
     try {
       console.log("Sending:", { email, password })
-      const res = await axios.post("https://netflix-clone-lk7c.vercel.app/login", {
+      const res = await axios.post(`${url}/login`, {
         email,
         password,
       })
