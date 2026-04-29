@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom"
 import axios from "axios"
 import { FaEye, FaEyeSlash } from "react-icons/fa"
 
-const url = "https://netflix-clone-lk7c-p03hvg2hq-ruqayya29s-projects.vercel.app"
+const url = "https://netflix-clone-lk7c.vercel.app"
 
 
 function Login() {
