@@ -39,3 +39,5 @@ const { email, password } = req.body
  app.listen(3000,function(){
   console.log("Server Started")
 })
+
+module.exports=app
