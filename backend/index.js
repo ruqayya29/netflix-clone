@@ -4,7 +4,7 @@ const cors = require("cors")
 const app = express()
 
 app.use(cors({
-  origin: "https://netflix-clone-g12ar4bai-ruqayya29s-projects.vercel.app",
+  origin: "https://netflix-clone-chi-two-51.vercel.app/",
   methods: ["GET", "POST"],
   credentials: true
 }))
