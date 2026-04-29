@@ -31,7 +31,7 @@ function Login() {
 
     try {
       console.log("Sending:", { email, password })
-      const res = await axios.post("http://localhost:3000/login", {
+      const res = await axios.post("https://netflix-clone-lk7c-bblf8ic8k-ruqayya29s-projects.vercel.app/login", {
         email,
         password,
       })
